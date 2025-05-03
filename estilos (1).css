@@ -1,0 +1,66 @@
+
+/* Fuente suave y elegante */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdfaf7;
+  color: #5b4a42;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #e9ddd1;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #d8c9b7;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #7b6b5c;
+}
+
+nav {
+  background-color: #d8c9b7;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #c7b5a4;
+}
+
+nav a {
+  color: #4a3a2c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+}
+
+section h2 {
+  color: #4a3a2c;
+  border-bottom: 1px solid #d8c9b7;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e9ddd1;
+  color: #7b6b5c;
+  font-size: 0.9rem;
+  border-top: 1px solid #d8c9b7;
+}
