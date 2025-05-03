@@ -1,0 +1,106 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fffdf9;
+  color: #4a3e3a;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e9e2dc;
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #5c4b41;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #7b6e68;
+}
+
+nav {
+  background-color: #d6c7bd;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: #4a3e3a;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #8b7667;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.producto {
+  background-color: #ffffff;
+  border: 1px solid #eee5dd;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 1rem;
+  width: 260px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.producto:hover {
+  transform: translateY(-4px);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #8b7667;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5c4b41;
+}
+
+footer {
+  background-color: #e9e2dc;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: #4a3e3a;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 600px) {
+  .catalogo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
